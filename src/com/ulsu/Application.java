@@ -64,11 +64,16 @@ public class Application {
      */
 
     public static void main(String[] args) {
-        /*User firstUser = new User("firstName", "firstSurname", "phone1", "email1", 25);
+        User firstUser = new User("firstName", "firstSurname", "phone1", "email1", 25);
         User secondUser = new User("secondName", "secondSurname", "phone2", "email2", 26);
-        Account firstAccount = new Account(1, firstUser);
-        Account secondAccount = new Account(2, secondUser);
-        firstAccount.setBalance(500);
+        try {
+
+        } (Exception e) {
+
+        }
+        Account firstAccount = new Account(1, firstUser, 2000);
+        Account secondAccount = new Account(2, secondUser, 1000);
+//        firstAccount.setBalance(500);
 
         ArrayList<OperationHistory> operationHistories = transferFunds(firstAccount, secondAccount, 500L);
 
@@ -77,7 +82,7 @@ public class Application {
                 System.out.println(operationHistory);
             }
         }
-        */
+
     }
 
 }
